@@ -1,4 +1,5 @@
 function [f] = funkcija(x)
+%dabartine versija: v0.3
 % grazina teksto funkcijos reiksme
 f=6*sin(x)+2*tg(x);
 

@@ -17,13 +17,14 @@ git checkout master 		<-pereiname i master'i
 git merge develop			<-suliejame develop
 //gali atsirasti konfliktas//
 -----
-KDiff3 <-programa konfliktu taisymui
+KDiff3 						<-programa konfliktu taisymui
 ****
 git config --global merge.tool kdiff3
 git config --global mergetool.kdiff3.cmd '"C:\\Program Files (x86)\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE $MERGED'
 ----
-git mergetool <-suliejinejame
+git mergetool 				<-suliejinejame
 git checkout main.m 		<-neprideda i master main.m failo
 git branch hotfix-0.2.1		<-pataisymas i toki versija (klaida taisome per cia)
 git push --tags				<-nukeliame failus i github
 git reset --hard HEAD~1		<-komentarus, kiek norime istrinti (kiek atgal grizti)
+git branch -d hotfix-0.2.1	<- istrinamas hotfix'as
