@@ -1,4 +1,4 @@
 Branchingas
 ===========
 
-Mokomes komandiskai dirbti su branch'ais
+Mokomes komandiskai dirbti su branch'ais...
