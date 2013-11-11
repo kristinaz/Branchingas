@@ -1,0 +1,20 @@
+gitk				<-
+git push --tags 	<-pradine tag'o reiksme
+git branch			<- branch'as
+master				<-tik svarbiausia, kas turetu buti issaugota
+develop				<- pagrindinis darbas turi buti cia
+git checkout develop
+git log nicelog
+git log --pretty=oneline
+
+
+----
+git log
+git status
+git add .
+git commit -m 'komentaras'
+gitk
+----
+git checkout master 		<-pereiname i master'i
+git merge develop			<-suliejame develop
+
