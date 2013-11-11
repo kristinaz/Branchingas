@@ -25,3 +25,4 @@ git config --global merge.tool kdiff3
 git config --global mergetool.kdiff3.cmd '"C:\\Program Files (x86)\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE $MERGED'
 ----
 git mergetool <-suliejinejame
+git commit -am 'komentaras'	 <-am prideda ir komentuoja faila
