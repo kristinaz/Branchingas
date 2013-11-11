@@ -6,8 +6,6 @@ develop				<- pagrindinis darbas turi buti cia
 git checkout develop
 git log nicelog
 git log --pretty=oneline
-
-
 ----
 git log
 git status
@@ -25,3 +23,7 @@ git config --global merge.tool kdiff3
 git config --global mergetool.kdiff3.cmd '"C:\\Program Files (x86)\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE $MERGED'
 ----
 git mergetool <-suliejinejame
+git checkout main.m 		<-neprideda i master main.m failo
+git branch hotfix-0.2.1		<-pataisymas i toki versija (klaida taisome per cia)
+git push --tags				<-nukeliame failus i github
+git reset --hard HEAD~1		<-komentarus, kiek norime istrinti (kiek atgal grizti)
