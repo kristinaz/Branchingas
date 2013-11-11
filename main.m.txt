@@ -1,4 +1,6 @@
 function [f] = funkcija(x)
 % grazina teksto funkcijos reiksme
 f=2*sin(x);
+f=2*sin(x);
+f=2*sin(x);
 end;
